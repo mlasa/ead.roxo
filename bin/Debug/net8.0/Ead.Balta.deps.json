@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Ead.Balta/1.0.0": {
+        "runtime": {
+          "Ead.Balta.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ead.Balta/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
