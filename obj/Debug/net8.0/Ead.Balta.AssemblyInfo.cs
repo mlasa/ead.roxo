@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ead.Balta")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+07ed779f2066baed131176a2ca1c88a23f8526a6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ad1eb59e2ba2de3b95bf9da2183039bc011c8d4d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ead.Balta")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ead.Balta")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

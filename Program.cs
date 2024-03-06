@@ -17,9 +17,22 @@ class Program
         articles.Add(new Article("Esse é o primeiro artigo!","meu-primeiro-artigo"));
         articles.Add(new Article("Porque o C# é uma ótima tecnologia","csharp-melhor-tecnologia"));
 
-        foreach(var article in articles){
+        var course = new Course("Fundamentos do C#", "fundamentos-csharp","fundamentos");
+        var course1 = new Course("Fundamentos OO", "fundamentos-oo","fundamentos");
+        var course2 = new Course("Fundamentos ASP NET", "fundamentos-aspnet","fundamentos");
+
+        var courses = new List<Course>();
+        courses.Add(course);
+        courses.Add(course1);
+        courses.Add(course2);
+
+        var career = new Career("Especialista Dotnet", "especialista-dotnet");
+        var careerItem = new CareerItem(1,"Entenda as bases do C#","Comece por aqui para ter noções da linguagem.", course);
+        career.Items.Add(careerItem);
+
+        /*foreach(var article in articles){
             Console.WriteLine($"Artigo:{article.Title} em /{article.Url}");
-        }
+        }*/
 
         Console.WriteLine("\n\n");
     }
