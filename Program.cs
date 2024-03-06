@@ -6,9 +6,10 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Oi Marcella!\n");
+        Console.Clear();
+        Console.WriteLine($"Oi Marcella!\nHoje é {DateTime.Now}\n\n");
         
-        var course = new Course("Java com SpringBoot", "java-springboot");
-        Console.WriteLine($"Id do curso:{course.Id} / Nome do curso:{course.Title}");
+        //var course = new Course("Java com SpringBoot", "java-springboot");
+        //Console.WriteLine($"Id do curso:{course.Id} / Nome do curso:{course.Title}");
     }
 }
