@@ -1,8 +1,15 @@
-using System.Reflection;
+using System;
+using System.Collections.Generic;
 
 namespace Ead.Balta.ContentContext{
     public class Course:Content{
         //Herdando de Content e usando as propriedades do pai no seu construtor
-        public Course(string title, string url):base(title, url){}
+        public Course(string title, string url, string tag):base(title, url){
+            Modules = new List<Module>();
+            Tag = tag;
+        }
+
+        public string Tag {get;set;}
+        public IList<Module> Modules { get; set; }
     }
 }

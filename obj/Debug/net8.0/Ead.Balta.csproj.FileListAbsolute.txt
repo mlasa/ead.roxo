@@ -12,3 +12,4 @@ E:\Pessoal\projetos\Ead.Balta\obj\Debug\net8.0\refint\Ead.Balta.dll
 E:\Pessoal\projetos\Ead.Balta\obj\Debug\net8.0\Ead.Balta.pdb
 E:\Pessoal\projetos\Ead.Balta\obj\Debug\net8.0\Ead.Balta.genruntimeconfig.cache
 E:\Pessoal\projetos\Ead.Balta\obj\Debug\net8.0\ref\Ead.Balta.dll
+E:\Pessoal\projetos\Ead.Balta\obj\Debug\net8.0\Ead.Balta.sourcelink.json
