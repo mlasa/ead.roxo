@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text.Json;
 using Ead.Balta.ContentContext;
 namespace Ead.Balta;
 
@@ -8,7 +9,7 @@ class Program
     static void Main(string[] args)
     {
         Console.Clear();
-        Console.WriteLine($"Hey Marcella aqui!- {new DateTime(2024,03,06).ToString("dd MMMM yy", new System.Globalization.CultureInfo("pt-BR"))}\n\n");
+        Console.WriteLine($"Heyyy, projeto rodando! - {DateTime.Now.ToString("dd MMMM yyyy", new System.Globalization.CultureInfo("pt-BR"))}\n\n");
         
         //var course = new Course("Java com SpringBoot", "java-springboot");
         //Console.WriteLine($"Id do curso:{course.Id} / Nome do curso:{course.Title}");
@@ -28,12 +29,16 @@ class Program
 
         var career = new Career("Especialista Dotnet", "especialista-dotnet");
         var careerItem = new CareerItem(1,"Entenda as bases do C#","Comece por aqui para ter noções da linguagem.", course);
+        var careerItem2 = new CareerItem(1,"Conhecendo os Objetos","", course2);
+
         career.Items.Add(careerItem);
+        career.Items.Add(careerItem2);
 
         /*foreach(var article in articles){
             Console.WriteLine($"Artigo:{article.Title} em /{article.Url}");
         }*/
 
-        Console.WriteLine("\n\n");
+        Console.WriteLine(JsonSerializer.Serialize(career));
+        Console.WriteLine("\n");
     }
 }
