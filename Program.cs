@@ -28,17 +28,16 @@ class Program
         courses.Add(course2);
 
         var career = new Career("Especialista Dotnet", "especialista-dotnet");
-        var careerItem = new CareerItem(1,"Entenda as bases do C#","Comece por aqui para ter noções da linguagem.", course);
+        var careerItem = new CareerItem(1,"Entenda as bases do C#","Comece por aqui para ter noções da linguagem.", null);
         var careerItem2 = new CareerItem(1,"Conhecendo os Objetos","", course2);
 
         career.Items.Add(careerItem);
         career.Items.Add(careerItem2);
 
-        /*foreach(var article in articles){
-            Console.WriteLine($"Artigo:{article.Title} em /{article.Url}");
-        }*/
+        foreach(var item in careerItem.Notifications){
+            Console.WriteLine($"{item.Message}");
+        }
 
-        Console.WriteLine(JsonSerializer.Serialize(career));
         Console.WriteLine("\n");
     }
 }

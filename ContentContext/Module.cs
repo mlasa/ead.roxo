@@ -1,7 +1,8 @@
 using System.Collections.Generic;
+using Balta.ContentContext;
 
 namespace Ead.Balta.ContentContext{
-    public class Module{
+    public class Module:Base{
         public Module(){
             Lectures = new List<Lecture>();
         }
