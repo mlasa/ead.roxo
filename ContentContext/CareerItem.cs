@@ -1,9 +1,7 @@
 using System.ComponentModel;
-using Balta.ContentContext;
-using Balta.NotificationContext;
 
 namespace Ead.Balta.ContentContext{
-    public class CareerItem:Base{
+    public class CareerItem{
         public int Order {get;set;}
         public string Title {get;set;}
         public string Description {get;set;}
@@ -11,8 +9,8 @@ namespace Ead.Balta.ContentContext{
 
         public CareerItem(int order,string title,string description,Course course)
         {
-            if(course == null) AddNotification(new Notification("Course","Curso não pode ser nulo"));
-            
+            if(course == null) throw new System.Exception("CarreerItem.cs - course não pode ser nulo");
+
             Order = order;
             Title = title;
             Description = description;

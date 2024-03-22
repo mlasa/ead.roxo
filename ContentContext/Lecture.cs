@@ -1,8 +1,7 @@
-using Balta.ContentContext;
 using Ead.Balta.ContentContext.Enums;
 
 namespace Ead.Balta.ContentContext{
-    public class Lecture:Base{
+    public class Lecture{
         public int Order {get;set;}
         public string Title {get;set;}
         public int DurationInMinutes {get; set;}
