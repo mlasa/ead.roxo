@@ -1,5 +1,5 @@
 using Flunt.Notifications;
 
-namespace Balta.ContentContext{
+namespace Balta.SharedContext{
     public class Base:Notifiable<Notification>{}
 }

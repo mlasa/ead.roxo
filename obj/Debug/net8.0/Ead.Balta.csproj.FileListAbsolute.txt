@@ -13,3 +13,6 @@ E:\Pessoal\projetos\Ead.Balta\obj\Debug\net8.0\Ead.Balta.pdb
 E:\Pessoal\projetos\Ead.Balta\obj\Debug\net8.0\Ead.Balta.genruntimeconfig.cache
 E:\Pessoal\projetos\Ead.Balta\obj\Debug\net8.0\ref\Ead.Balta.dll
 E:\Pessoal\projetos\Ead.Balta\obj\Debug\net8.0\Ead.Balta.sourcelink.json
+E:\Pessoal\projetos\Ead.Balta\bin\Debug\net8.0\Flunt.dll
+E:\Pessoal\projetos\Ead.Balta\obj\Debug\net8.0\Ead.Balta.csproj.AssemblyReference.cache
+E:\Pessoal\projetos\Ead.Balta\obj\Debug\net8.0\Ead.Balta.csproj.CopyComplete

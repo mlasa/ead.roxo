@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text.Json;
+using Balta.SubscriptionContext;
 using Ead.Balta.ContentContext;
 namespace Ead.Balta;
 
@@ -34,11 +35,11 @@ class Program
         career.Items.Add(careerItem);
         career.Items.Add(careerItem2);
 
-        /*foreach(var article in articles){
-            Console.WriteLine($"Artigo:{article.Title} em /{article.Url}");
-        }*/
+        var payPalSub = new PayPalSubscription();
+        var student = new Student();
+        /*upcast*/
+        student.Subscriptions.Add(payPalSub);
 
-        Console.WriteLine(JsonSerializer.Serialize(career));
         Console.WriteLine("\n");
     }
 }

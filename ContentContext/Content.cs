@@ -1,5 +1,5 @@
 using System;
-using Balta.ContentContext;
+using Balta.SharedContext;
 
 namespace Ead.Balta.ContentContext{
 

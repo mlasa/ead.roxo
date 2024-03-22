@@ -1,7 +1,7 @@
-using System.ComponentModel;
+using Balta.SharedContext;
 
 namespace Ead.Balta.ContentContext{
-    public class CareerItem{
+    public class CareerItem:Base{
         public int Order {get;set;}
         public string Title {get;set;}
         public string Description {get;set;}
